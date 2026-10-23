@@ -17,20 +17,20 @@ This is an independently written, general-purpose example using **only Python's 
 
 From the repository root:
 
-\`\`\`sh
+```sh
 PYTHONPATH=src python -m fileaudit make examples/files manifest.json
 PYTHONPATH=src python -m fileaudit verify examples/files manifest.json
 PYTHONPATH=src python -m unittest discover -s tests -v
-\`\`\`
+```
 
 The manifest must be outside the indexed directory. Edit a sample file and rerun verification to see the mismatch reported.
 
 ## CLI usage
 
-\`\`\`text
+```text
 python -m fileaudit make DIRECTORY MANIFEST_JSON
 python -m fileaudit verify DIRECTORY MANIFEST_JSON
-\`\`\`
+```
 
 ## Design notes
 
