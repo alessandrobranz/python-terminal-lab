@@ -2,14 +2,14 @@
 
 ## JSON schema
 
-\`\`\`json
+```json
 {
   "schema_version": 1,
   "files": [
     {"path": "hello.txt", "size": 42, "sha256": "64 lowercase hex characters"}
   ]
 }
-\`\`\`
+```
 
 The paths are UTF-8 relative paths with forward slashes. The list is lexicographically sorted and the result is deterministic for an unchanged directory.
 
