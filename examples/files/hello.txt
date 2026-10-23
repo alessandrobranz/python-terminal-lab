@@ -1,0 +1,1 @@
+A synthetic sample file for file-integrity checks.
